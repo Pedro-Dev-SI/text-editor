@@ -31,6 +31,10 @@ const alignCenter = () => {
    document.getElementById("text-area").style.textAlign = "center";
 }
 
+const justifyText = () => {
+   document.getElementById("text-area").style.textAlign = "justify";
+}
+
 const resetStyle = () => {
    document.getElementById("text-area").style.fontWeight = "normal";
    document.getElementById("text-area").style.fontStyle = "normal";
