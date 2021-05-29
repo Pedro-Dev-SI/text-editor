@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style/style.css">
+   <!--Bootstrap-->
+   <link rel="stylesheet" href="./style/css/bootstrap.min.css">
+   
+
+   <!--Fontawesome for icons-->
+   <script src="https://kit.fontawesome.com/7c975574f0.js" crossorigin="anonymous"></script>
+   
+
+   <title>Texte Editor</title>
+</head>
+<body>
+   <section class="container">
+      <h1>
+         Text
+         <small class="text-muted">Editor</small>
+       </h1>
+
+       <div class="box-area">
+          <div class="row">
+               <div class="col">
+                  <button type="button" class="btn btn-light" title="Bold" id="bold-btn" onClick="makeBold()"><i class="fas fa-bold"></i></button>
+
+                  <button type="button" class="btn btn-light" title="Italic" onClick="makeItalic()"><i class="fas fa-italic"></i></button>
+
+                  <button type="button" class="btn btn-light" title="Uppercase" onClick="makeUpper()"><i class="fas fa-angle-up"></i></button>
+
+                  <button type="button" class="btn btn-light" title="Lowercase" onClick="makeLower()"><i class="fas fa-angle-down"></i></button>
+
+                  <button type="button" class="btn btn-light" title="Capitalize" onClick="capitalizeIt()"><i class="fa fa-text-height" aria-hidden="true"></i></button>
+
+                  <button type="button" class="btn btn-light" title="Left Align" onClick="alignLeft()"><i class="fa fa-align-left" aria-hidden="true"></i></button>
+
+                  <button type="button" class="btn btn-light" title="Right Align" onClick="alignRight()"><i class="fa fa-align-right" arialeft" aria-hidden="true"></i></button>
+
+                  <button type="button" class="btn btn-light" title="Center Align" onClick="alignCenter()"><i class="fa fa-align-center" aria-hidden="true"></i></button>
+
+                  <button type="button" class="btn btn-light" title="Reset text" onClick="resetStyle()"><i class="fa fa-refresh" aria-hidden="true"></i></button>
+
+                  <button type="button" class="btn btn-light" title="Remove all text" onClick="removeAllText()"><i class="fa fa-trash" aria-hidden="true"></i></button>
+               </div>
+            </div>
+
+            <textarea class="form-control" aria-label="With textarea" placeholder="Write here..." id="text-area"></textarea>
+
+         </div>
+
+         <a class="name" href="#">Pedro Selvate 2021.</a>
+
+   </section>
+
+   
+ 
+   <script src="src/main.js"></script>
+</body>
+</html>
